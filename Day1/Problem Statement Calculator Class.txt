@@ -1,0 +1,2 @@
+Write a class Calculator which takes two int and return +-/* operations.
+No need of handling edge cases
