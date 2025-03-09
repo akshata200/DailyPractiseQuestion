@@ -2,9 +2,7 @@
 using RandomNumberGame.Models;
 
 RandomNumberGame_Vaibhav cls = new RandomNumberGame_Vaibhav();
-
 cls.GenerateRandomNumber();
-
 Console.WriteLine("Result : " + cls.GetResult());
 
 

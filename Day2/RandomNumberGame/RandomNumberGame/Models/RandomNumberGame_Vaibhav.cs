@@ -8,11 +8,9 @@ namespace RandomNumberGame.Models
 {
     internal class RandomNumberGame_Vaibhav
     {
-        int a;
-        int b;
-        int c;
+        int a, b, c;
         Random ra;
-        int count;
+        int winCount;
 
         public RandomNumberGame_Vaibhav()
         {
@@ -20,9 +18,9 @@ namespace RandomNumberGame.Models
         }
         public void GenerateRandomNumber()
         {
-            a = ra.Next(10);
-            b = ra.Next(10);
-            c = ra.Next(10);
+            a = ra.Next(11);
+            b = ra.Next(11);
+            c = ra.Next(11);
             Console.WriteLine("First Number = " + a);
             Console.WriteLine("Second Number = " + b);
             Console.WriteLine("Third Number = " + c);
@@ -31,17 +29,17 @@ namespace RandomNumberGame.Models
         {
             if (a % 2==0)
             {
-                count++;
+                winCount++;
             }
             if (b % 2 == 0)
             {
-                count++;
+                winCount++;
             }
             if (c % 2 == 0)
             {
-                count++;
+                winCount++;
             }
-            if (count > 1)
+            if (winCount > 1)
                 return "You won";
 
             return "You Lost";
