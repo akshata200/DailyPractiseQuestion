@@ -1,7 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using RandomNumberGame.Models;
 
-Console.WriteLine("Hello, World!");
+RandomNumberGame_Vaibhav cls = new RandomNumberGame_Vaibhav();
+
+cls.GenerateRandomNumber();
+
+Console.WriteLine("Result : " + cls.GetResult());
 
 
 Console.WriteLine("--------------------------------------------");
