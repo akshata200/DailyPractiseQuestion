@@ -1,0 +1,6 @@
+Write a class RandomNumberGame which generates a random number from 1 to 10 : 3 time
+If it is even : You win
+If it is odd  : You lose
+
+If you win two time : You win
+If you lose two times : You lose
