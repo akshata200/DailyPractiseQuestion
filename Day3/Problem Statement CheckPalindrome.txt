@@ -1,0 +1,8 @@
+Write a method in class CheckPalindrome to check whether given string is Palindrome or not 
+
+Example :
+
+1] abcddcba : Palindrome
+2] abcdcba  : Not Palindrome
+
+Note : String should not contain special character it should only have alphanumeric character (charcters and numbers)
