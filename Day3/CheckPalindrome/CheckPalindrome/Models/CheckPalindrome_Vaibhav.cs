@@ -8,14 +8,34 @@ namespace CheckPalindrome.Models
 {
     internal class CheckPalindrome_Vaibhav
     {
-        public string IsPalindrome(string s)
+        string? s = string.Empty;
+        List<char> ls = new List<char>();
+        public string IsPalindrome()
         {
-            for (int i=0; i<s.Length/2;i++)
+            s = TakeInput();
+
+            for (int j=0;j< s.Length;j++)
             {
-                if (s[i] != s[s.Length - 1 - i])
+                if (char.IsLetterOrDigit(s[j]))
+                {
+                    ls.Add(s[j]);
+                }
+            }
+            
+            for (int i = 0; i < ls.Count / 2; i++)
+            {
+                if (ls[i] != ls[ls.Count - 1 - i])
                     return "It is not palindrome";
             }
+            
+            
             return "It is palindrome";
+        }
+        public string TakeInput()
+        {
+            Console.WriteLine("Input : ");
+            s = Console.ReadLine();
+            return string.IsNullOrEmpty(s) ? string.Empty: s;
         }
     }
 }

@@ -16,8 +16,7 @@ namespace CheckPalindrome
             Console.WriteLine("\n------------------------------------------------------------\n");
 
             CheckPalindrome_Vaibhav vda = new CheckPalindrome_Vaibhav();
-            Console.WriteLine(vda.IsPalindrome("abcddcba"));
-            Console.WriteLine(vda.IsPalindrome("abcdcda"));
+            Console.WriteLine(vda.IsPalindrome());
 
             Console.WriteLine("\n------------------------------------------------------------\n");
         }
