@@ -5,4 +5,4 @@ Example :
 1] abcddcba : Palindrome
 2] abcdcba  : Not Palindrome
 
-Note : String should not contain special character it should only have alphanumeric character (charcters and numbers)
+Note : String does/should not contain special character it should only have alphanumeric character (characters and numbers)
