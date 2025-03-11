@@ -1,7 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using AbsoluteNumber.Models;
 
-Console.WriteLine("Hello, World!");
+AbsoluteNumValue_Vaibhav vda= new AbsoluteNumValue_Vaibhav();
+Console.WriteLine("Absolute value : " + vda.GetAbsoluteNumber());
 
 
 Console.WriteLine("\n----------------------------------------\n");
