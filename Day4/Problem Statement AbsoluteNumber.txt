@@ -1,0 +1,8 @@
+Write a method in class AbsoluteNumber to input a number from console and return its absolute value
+
+Example :
+
+1] -45 : 45
+2]  78 : 78
+
+Note : Don't use Math.Abs 
